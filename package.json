@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "description": "Coming soon",
+  "version": "1.0.0",
+  "main": "build-site.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy"
+  },
+  "dependencies": {
+    "isomorphic-dompurify": "^0.24.0",
+    "marked": "^4.2.5",
+    "minify": "^9.1.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajanphadnis/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajanphadnis/portfolio/issues"
+  },
+  "homepage": "https://github.com/rajanphadnis/portfolio#readme"
+}

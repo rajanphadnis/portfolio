@@ -1,0 +1,27 @@
+
+
+<p>mechanical</p>
+
+<ul>
+    {%- for mechanical in collections.mechanical -%}
+    <li>{{ mechanical.templateContent }}</li>
+    {%- endfor -%}
+</ul>
+
+
+<p>software</p>
+
+<ul>
+    {%- for software in collections.software -%}
+    <li>{{ software.templateContent }}</li>
+    {%- endfor -%}
+</ul>
+
+
+<p>other</p>
+
+<ul>
+    {%- for other in collections.other -%}
+    <li>{{ other.templateContent }}</li>
+    {%- endfor -%}
+</ul>
