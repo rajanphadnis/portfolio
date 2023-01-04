@@ -1,27 +1,44 @@
+<!doctype html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/resources/main.css">
+    <title>Projects - Rajan Phadnis</title>
+</head>
 
-<p>mechanical</p>
+<body>
+    <div class="w3-bar w3-black">
+        <button class="tabButton" onclick="openCity('Mechanical')">Mechanical</button>
+        <button class="tabButton" onclick="openCity('Software')">Software</button>
+        <button class="tabButton" onclick="openCity('Other')">Other</button>
+    </div>
+    <div id="Mechanical" class="w3-container proj">
+        <h2>Mechanical Projects</h2>
+        {%- for mechanical in collections.mechanical -%}
+        <div class="projectDetailsDiv">{{ mechanical.templateContent }}</div>
+        {%- endfor -%}
+    </div>
 
-<ul>
-    {%- for mechanical in collections.mechanical -%}
-    <li>{{ mechanical.templateContent }}</li>
-    {%- endfor -%}
-</ul>
+    <div id="Software" class="w3-container proj" style="display:none">
+        <h2>Software Projects</h2>
+        <ul>
+            {%- for software in collections.software -%}
+            <div class="projectDetailsDiv">{{ software.templateContent }}</div>
+            {%- endfor -%}
+        </ul>
+    </div>
 
+    <div id="Other" class="w3-container proj" style="display:none">
+        <h2>Other Projects</h2>
+        <ul>
+            {%- for other in collections.other -%}
+            <div class="projectDetailsDiv">{{ other.templateContent }}</div>
+            {%- endfor -%}
+        </ul>
+    </div>
 
-<h1>software</h1>
-
-<ul>
-    {%- for software in collections.software -%}
-    <li>{{ software.templateContent }}</li>
-    {%- endfor -%}
-</ul>
-
-
-<p>other</p>
-
-<ul>
-    {%- for other in collections.other -%}
-    <li>{{ other.templateContent }}</li>
-    {%- endfor -%}
-</ul>
+</body>
+<script src="/resources/main.js"></script>
+</html>
