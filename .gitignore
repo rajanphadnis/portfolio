@@ -49,4 +49,3 @@ app.*.map.json
 /node_modules
 
 /public/*
-!/public/images/
