@@ -15,7 +15,7 @@
     }
   ],
   "hosting": [{
-    "target": "default",
+    "target": "live",
     "public": "public",
     "ignore": [
       "firebase.json",
