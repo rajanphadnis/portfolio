@@ -14,12 +14,22 @@
       ]
     }
   ],
-  "hosting": {
+  "hosting": [{
+    "target": "default",
     "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ]
-  }
+  },
+  {
+    "target": "dev",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }]
 }
