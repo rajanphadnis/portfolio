@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "portfolio-rajan-phadnis"
-  }
+  },
+  "targets": {
+    "portfolio-rajan-phadnis": {
+      "hosting": {
+        "dev": [
+          "dev-rajanphadnis"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
