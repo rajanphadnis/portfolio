@@ -6,7 +6,7 @@
     "portfolio-rajan-phadnis": {
       "hosting": {
         "dev": [
-          "dev-rajanphadnis"
+          "dev-portfolio-rajanphadnis"
         ],
         "live": [
           "portfolio-rajan-phadnis"
