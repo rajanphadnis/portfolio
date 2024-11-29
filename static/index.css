@@ -6,7 +6,9 @@ body {
   padding: 0px;
   --background-color: rgb(29, 29, 29);
   background-color: var(--background-color);
-  font-family: "IBM Plex Mono", monospace;
+  /* font-family: "IBM Plex Mono", monospace; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
@@ -41,6 +43,14 @@ body {
 
 .headerAH1 {
   /*  */
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
 }
 
 .headerButton {
@@ -125,14 +135,29 @@ body {
 .projectTileImg {
   width: 100%;
   object-fit: cover;
+  max-height: 180px;
 }
 
 .projectTileH {
   margin: 5px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  line-height: 1.3em;
+  min-height: 1.3em;
 }
 
 .projectTileP {
   margin: 5px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 1.3em;
+  min-height: 2.6em;
 }
 
 .aboutDiv {
