@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="pageContent">
+  <h2 class="title">
+    Project: {{ page.title }}
+  </h2>
+  <p class="subtitle"><i>{{ page.description }}</i></p>
+  {{ page.content | safe }}
+</div>
+<div class="footer">
+  <p>View project source code on <a href="{{ page.extra.link }}" target="_blank" class="footerA">GitHub</a></p>
+</div>
+{% endblock content %}

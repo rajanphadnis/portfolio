@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="home_content">
+    <div class="aboutDiv">
+        <article class="aboutText">
+            {% set page_about = get_page(path="about.md") %}
+            {{ page_about.content | safe }}
+        </article>
+        <img src="/assets/me.jpg" class="aboutImg" />
+    </div>
+    <hr class="projHr"/>
+    <h2 class="projH2">Projects</h2>
+    <div class="projects">
+        {% set section = get_section(path="projects/_index.md") %}
+        {% for page in section.pages %}
+        <a href="{{ page.permalink | safe }}" class="projectTileA">
+            <div class="projectTile">
+                <img src="{{ page.extra.img }}" class="projectTileImg">
+                <h3 class="projectTileH">{{ page.title }}</h3>
+                <p class="projectTileP">{{ page.description }}</p>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    <div class="footer">
+        <p>View source code on <a href="https://github.com/rajanphadnis/portfolio" target="_blank" class="footerA">GitHub</a></p>
+    </div>
+</div>
+{% endblock %}
