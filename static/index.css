@@ -136,6 +136,8 @@ a:visited {
   width: 100%;
   object-fit: cover;
   max-height: 180px;
+  height: 180px;
+  min-height: 180px;
 }
 
 .projectTileH {
@@ -286,4 +288,12 @@ img[alt*="><"] {
   .title {
     margin-top: 0px;
   }
+}
+
+.zola-anchor {
+  text-decoration: none;
+}
+
+.zola-anchor:hover {
+  text-decoration: underline;
 }

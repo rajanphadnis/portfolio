@@ -1,8 +1,8 @@
 +++
 title = "CMS Upper Plumbing"
-description = "bang-bang, otherbuckets!!!"
+description = "yippie kayak, otherbuckets!!!, but with hysteresis"
 weight = 3
-extra = {"link" = "https://purdueseds.space/liquids/cms/", "link_name" = "Purdue SEDS", "img" = "/assets/wistful-rajan.jpg", "toc" = false}
+extra = {"link" = "https://purdueseds.space/liquids/cms/", "link_name" = "Purdue SEDS", "img" = "/assets/psp/hero.jpg", "toc" = false}
 +++
 
 ## PSP
