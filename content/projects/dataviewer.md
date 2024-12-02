@@ -2,7 +2,7 @@
 title = "PSP Dataviewer"
 description = "Test data accessibility for faster iterative dev :)"
 weight = 1
-extra = {"link" = "https://github.com/rajanphadnis/psp-data-viewer", "link_name" = "GitHub", "img" = "/assets/dataviewer1.png", "toc" = true}
+extra = {"link" = "https://github.com/rajanphadnis/psp-data-viewer", "link_name" = "GitHub", "img" = "/assets/dataviewer/dataviewer1.png", "toc" = true}
 +++
 
 <!-- ![image alt > small](/assets/me.jpg) -->
@@ -31,9 +31,11 @@ I built four systems:
 
 The vast majourity of people will interact with the webapp:
 
-[![image alt ><](/assets/dataviewer1.png)](https://pspl.space)
+[![image alt ><](/assets/dataviewer/dataviewer1.png)](https://pspl.space)
 
 ## Architecture
+
+![image alt > medium](/assets/dataviewer/architecture.png)
 
 I have some [mermaid diagrams on the documentation](https://psp-docs.rajanphadnis.com/architecture) that do a pretty good job explaining how everything gets orchestrated together, but I'll run through some design decisions and previous implementations here.
 

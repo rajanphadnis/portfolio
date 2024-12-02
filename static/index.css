@@ -288,6 +288,14 @@ img[alt*="><"] {
   .title {
     margin-top: 0px;
   }
+  img {
+    display: block !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0px !important;
+    float: none !important;
+  }
 }
 
 .zola-anchor {
