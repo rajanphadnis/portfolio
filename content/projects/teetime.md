@@ -7,4 +7,4 @@ extra = {"link" = "https://github.com/rajanphadnis/pgcc", "link_name" = "GitHub"
 
 ## Goal
 
-I can't believe they're still using this lmao
+I just put this website up @ 1pm ET on 12/3/2024 - still working on getting these projects documented

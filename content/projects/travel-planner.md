@@ -6,3 +6,5 @@ extra = {"link" = "https://github.com/rajanphadnis/travel-planner", "link_name" 
 +++
 
 ## Offline-first, ad-free travel organizer
+
+I just put this website up @ 1pm ET on 12/3/2024 - still working on getting these projects documented
