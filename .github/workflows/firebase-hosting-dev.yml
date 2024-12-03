@@ -1,8 +1,6 @@
 name: Deploy Dev Firebase Hosting
-'on':
+"on":
   push:
-    branches:
-      - dev
   # Allow running this workflow manually from the Actions tab
   workflow_dispatch:
 jobs:
@@ -10,11 +8,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm run build
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: zola@0.19.2,toml-cli
+      - run: cat config.toml > temp.toml && toml set temp.toml base_url "https://dev.rajanphadnis.com" > config.toml && rm -rf temp.toml
+      - run: zola build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_RAJAN_PHADNIS }}'
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_RAJAN_PHADNIS }}"
           channelId: live
           projectId: portfolio-rajan-phadnis
           target: dev
