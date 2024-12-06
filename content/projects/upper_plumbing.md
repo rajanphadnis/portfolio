@@ -5,8 +5,18 @@ weight = 0
 extra = {"link" = "https://purdueseds.space/liquids/cms/", "link_name" = "Purdue SEDS", "img" = "/assets/psp/hero.jpg", "toc" = false}
 +++
 
-## PSP
+![image alt ><](/assets/psp/hero.jpg)
+*^ CMS Hotfire*
 
-## Bang-Bang
+## PSP Liquids and CMS
 
-I just put this website up @ 1pm ET on 12/3/2024 - still working on getting these projects documented
+Ok so...here's some more info about [PSP Liquids (Purdue Space Program: Liquids Team)](https://purdueseds.space/liquids/), aaaand here's a quick overview of CMS (CraterMaker Special)
+
+![image alt ><](/assets/psp/cms_overview.png)
+
+
+## Bang-Bang Sim
+
+[here](@/projects/bang-bang-sim.md)
+
+I just put this website up - working on getting these projects documented
