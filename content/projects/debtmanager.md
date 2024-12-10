@@ -1,6 +1,6 @@
 +++
 title = "Debt Manager"
-description = "Sadness never looked so good"
+description = "🚧🏗️🚧Sadness never looked so good"
 weight = 3
 extra = {"link" = "https://github.com/rajanphadnis/EncryptedDebtManager", "link_name" = "GitHub", "img" = "/assets/debt/home.png", "toc" = false}
 +++
@@ -9,4 +9,4 @@ extra = {"link" = "https://github.com/rajanphadnis/EncryptedDebtManager", "link_
 
 Making sure my parents know how many student loans I still have.
 
-I just put this website up - working on getting these projects documented
+I just put this website up - still working on getting these projects documented! These emojis (🚧🏗️🚧) in the project description indicate the docs are in a very rough shape

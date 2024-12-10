@@ -13,7 +13,7 @@ You can't get good hardware test results without good data. You _really_ can't g
 
 ## TLDR;
 
-I created a backend, an API, and some web interfaces to store, process, and make test data _**quickly**_ and _**affordably**_ accessible to anoyone with a web browser.
+I created a backend, an API, and some web interfaces to store, process, and make rocket test data _**quickly**_ and _**affordably**_ accessible to anoyone with a web browser.
 
 <!-- more -->
 
@@ -34,7 +34,7 @@ I built four systems:
 
 The vast majourity of people will interact with the webapp:
 
-[![image alt ><](/assets/dataviewer/dataviewer1.png)](https://pspl.space)
+[![image alt ><](/assets/dataviewer/dataviewer1.png)](https://pspl.space/WuBeaYk?b64=cHQtZnUtMjAxX19wc2lfXyxwdC1mdS0yMDFfc2V0cG9pbnRfaGlnaF9fcHNpX186OjoxNzMwNjA1MTU5MjQ0Ojo6MTczMDYwNTQ1NTQxNDo6OjEsMQ==)
 
 ## Architecture
 
@@ -113,6 +113,42 @@ The webapps (v2) are written in Typescript and built using [Solid.js](https://ww
 - React was too heavy for my liking. You can definetly make some fast apps with react, but dealing with the virtual DOM and not having a fully reactive system out-of-the-box sealed the deal against React for me.
 - Webcomponents/Lit seemed like a good solution, especially because they were a standard, but using normal webcomponents meant interfacing with a low-level JS API that just felt like too much developer overhead. Lit also wasn't ideal because using decorators for every propoerty or element I want to create looked way too complex for someone to quickly pick up and understand. Plus, it's harder to distinguish which reactive propoerties are being updated in a Lit component
 
+## Tools
 
+Obviously you want to view data quickly and afforadbly, but wouldn't it also be helpful to provide a suite of tools to *analyze* and *present* that data much faster?
+
+### Sharelinks
+
+Sometimes you're looking at some data and you want to share exactly what you're looking at with someone else - but not with a screenshot. If you want another person to analyze that section of data - or you want to reference or cite some specific data in a report or slideshow, screenshots just don't cut it.
+
+So, I created a way to share the existing state of the app just by clicking "Share" in the top right corner. By clicking that link, you copy a unique url to your clipboard - so that you can share exactly what you're looking at with anyone else who has access to the internet.
+
+### Plot Export
+
+Made some super-simple export buttons, allowing both image and data export:
+
+- PNG Image Export:
+   - Copy to clipboard
+   - Download as PNG
+- Data export
+   - Plot window CSV download
+   - Full resolution CSV download
+
+### Measuring
+
+To quickly measure the differnece between two points on a plot, I created a "measure" tool. 
+
+Using keyboard hotkeys (the keys "1" and "2"), a user can place measuring points on the plot and get a full list of differences between all visible datasets between those plots.
+
+Example:
+
+![image alt ><](/assets/dataviewer/dataviewer1.png)
+
+### Calcs Engine
+
+I wrote a "calcs engine" to apply formulas to datasets for better analysis. I also wrote it to allow combining different datasets within a single formula - and extended it by allowing a "time window" of data for each dataset being worked with to be available for analysis.
+
+
+## Documentation
 
 __View actual [docs](https://psp-docs.rajanphadnis.com/)__
