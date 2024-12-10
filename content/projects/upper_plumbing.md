@@ -40,7 +40,15 @@ You can read more about the Python sim [here](@/projects/bang-bang-sim.md). To s
 
 ![image alt ><](/assets/psp/basic_sizing.png)
 
-## Vent & Emergency Relief
+### Valve Selection
+
+### Manifold Design
+
+### Testing & Qual Campaign
+
+## Tank Vent
+
+## Emergency Relief
 
 ## GSE upgrades
 
