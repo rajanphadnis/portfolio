@@ -1,6 +1,6 @@
 +++
 title = "Debt Manager"
-description = "Sadness never looked so good"
+description = "🚧🏗️🚧Sadness never looked so good"
 weight = 3
 extra = {"link" = "https://github.com/rajanphadnis/EncryptedDebtManager", "link_name" = "GitHub", "img" = "/assets/debt/home.png", "toc" = false}
 +++

@@ -1,6 +1,6 @@
 +++
 title = "Chicano Park AR Explorer"
-description = ""
+description = "🚧🏗️🚧"
 weight = 3
 extra = {"link" = "https://github.com/rajanphadnis/ChicanoParkHistoryApp", "link_name" = "GitHub", "img" = "/assets/chicano/murals.png", "toc" = false}
 +++

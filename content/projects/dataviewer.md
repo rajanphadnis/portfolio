@@ -146,6 +146,7 @@ Example:
 
 ### Calcs Engine
 
+I wrote a "calcs engine" to apply formulas to datasets for better analysis. I also wrote it to allow combining different datasets within a single formula - and extended it by allowing a "time window" of data for each dataset being worked with to be available for analysis.
 
 
 ## Documentation
