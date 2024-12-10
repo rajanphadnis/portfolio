@@ -9,6 +9,4 @@ extra = {"link" = "https://github.com/rajanphadnis/PSPL_CMS_Fluids/tree/main/Upp
 
 ## Bang-Bang Sim
 
-
-
-I just put this website up - working on getting these projects documented
+I just put this website up - still working on getting these projects documented! These emojis (🚧🏗️🚧) in the project description indicate the docs are in a very rough shape

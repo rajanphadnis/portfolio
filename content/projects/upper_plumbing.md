@@ -52,4 +52,4 @@ You can read more about the Python sim [here](@/projects/bang-bang-sim.md). To s
 
 ## GSE upgrades
 
-I just put this website up - still working on getting these projects documented!
+I just put this website up - still working on getting these projects documented! These emojis (🚧🏗️🚧) in the project description indicate the docs are in a very rough shape
