@@ -5,7 +5,7 @@ render = false
 
 # Hi, I'm Rajan!
 
-I'm just about to finish undergrad @ Purdue [AAE](https://engineering.purdue.edu/AAE/academics/undergraduate), and am a cleared US Citizen excited to make humanity a multiplanetary species!
+I just graduated from Purdue [AAE](https://engineering.purdue.edu/AAE/academics/undergraduate), and am a cleared US Citizen excited to make humanity a multiplanetary species!
 
 I love working on rockets/spacecraft and ground systems, designing fluid systems, and spinning up random software projects
 
